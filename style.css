@@ -1,0 +1,53 @@
+root {
+font-family: 'Noto Sans KR', sans-serif;
+background: var(--bg);
+color: var(--accent);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.container {
+width: 100%;
+max-width: 400px;
+padding: 20px;
+}
+h1 {
+text-align: center;
+font-size: 1.5rem;
+margin-bottom: 20px;
+}
+.form {
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+label {
+font-size: 0.9rem;
+}
+input, textarea {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: var(--radius);
+font-size: 1rem;
+background: #fff;
+}
+.btn {
+padding: 10px;
+border: none;
+border-radius: var(--radius);
+background: var(--accent);
+color: #fff;
+font-size: 1rem;
+cursor: pointer;
+}
+.btn:hover {
+opacity: 0.9;
+}
+.thank-you {
+text-align: center;
+margin-top: 20px;
+font-size: 1rem;
+color: var(--accent);
+}

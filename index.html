@@ -1,0 +1,38 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>연락하기</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<main class="container">
+<h1>연락하기</h1>
+
+
+<form id="contact-form" class="form" novalidate>
+<label for="name">이름</label>
+<input id="name" name="name" type="text" required placeholder="홍길동" />
+
+
+<label for="email">이메일</label>
+<input id="email" name="email" type="email" required placeholder="name@example.com" />
+
+
+<label for="message">메시지</label>
+<textarea id="message" name="message" rows="6" required placeholder="메시지를 입력하세요..."></textarea>
+
+
+<button type="submit" class="btn">보내기</button>
+</form>
+
+
+<div id="thank-you" class="thank-you" hidden>
+<p>감사합니다! 메시지를 잘 받았습니다.</p>
+</div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
